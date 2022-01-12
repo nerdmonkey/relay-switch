@@ -3,8 +3,8 @@
 namespace Nerdmonkey\RelaySwitch;
 
 use Nerdmonkey\RelaySwitch\Commands\RelaySwitchCommand;
-use Spatie\LaravelPackageTools\Package;
-use Spatie\LaravelPackageTools\PackageServiceProvider;
+use Nerdmonkey\LaravelPackageTools\Package;
+use Nerdmonkey\LaravelPackageTools\PackageServiceProvider;
 
 class RelaySwitchServiceProvider extends PackageServiceProvider
 {
