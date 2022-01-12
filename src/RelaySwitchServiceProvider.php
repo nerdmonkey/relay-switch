@@ -19,7 +19,7 @@ class RelaySwitchServiceProvider extends PackageServiceProvider
             ->name('relay-switch')
             ->hasConfigFile()
             ->hasViews()
-            ->hasMigration('create_relay-switch_table')
+            ->hasMigration('create_switches_table')
             ->hasCommand(RelaySwitchCommand::class);
     }
 }
