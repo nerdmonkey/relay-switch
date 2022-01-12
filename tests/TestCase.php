@@ -3,8 +3,8 @@
 namespace Nerdmonkey\RelaySwitch\Tests;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
-use Orchestra\Testbench\TestCase as Orchestra;
 use Nerdmonkey\RelaySwitch\RelaySwitchServiceProvider;
+use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra
 {
