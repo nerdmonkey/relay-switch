@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Nerdmonkey\RelaySwitch\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class RelaySwitchCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'relay-switch';
 
     public $description = 'My command';
 

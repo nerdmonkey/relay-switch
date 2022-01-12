@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "nerdmonkey/relay-switch",
+    "description": "This package for raspberry pi relay switch",
     "keywords": [
-        ":vendor_name",
+        "nerdmonkey",
         "laravel",
-        ":package_slug"
+        "relay-switch"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/nerdmonkey/relay-switch",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Sydel Palinlin",
+            "email": "sydel.palinlin@gmail.com",
             "role": "Developer"
         }
     ],
@@ -34,13 +34,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Nerdmonkey\\RelaySwitch\\": "src",
+            "Nerdmonkey\\RelaySwitch\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "Nerdmonkey\\RelaySwitch\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -54,10 +54,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Nerdmonkey\\RelaySwitch\\RelaySwitchServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "RelaySwitch": "Nerdmonkey\\RelaySwitch\\Facades\\RelaySwitch"
             }
         }
     },
