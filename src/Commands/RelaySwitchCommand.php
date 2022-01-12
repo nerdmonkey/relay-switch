@@ -6,9 +6,9 @@ use Illuminate\Console\Command;
 
 class RelaySwitchCommand extends Command
 {
-    public $signature = 'switch:list';
+    public $signature = 'relay:list';
 
-    public $description = 'List all the switch and assigned pins';
+    public $description = 'List all the switching devices and assigned pins';
 
     public function handle(): int
     {
