@@ -2,8 +2,8 @@
 
 namespace Nerdmonkey\RelaySwitch\Models;
 
-use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
 
 class Relay extends Model
 {
